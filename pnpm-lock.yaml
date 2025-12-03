@@ -14,9 +14,21 @@ importers:
       '@smithery/sdk':
         specifier: ^1.7.4
         version: 1.7.4(@cfworker/json-schema@4.1.1)
+      agentmail:
+        specifier: ^0.1.8
+        version: 0.1.8
       agentmail-toolkit:
         specifier: ^0.1.35
         version: 0.1.35(@cfworker/json-schema@4.1.1)(@opentelemetry/api@1.9.0)
+      chalk:
+        specifier: ^5.6.2
+        version: 5.6.2
+      cors:
+        specifier: ^2.8.5
+        version: 2.8.5
+      express:
+        specifier: ^5.2.1
+        version: 5.2.1
       zod:
         specifier: ^4.1.13
         version: 4.1.13
