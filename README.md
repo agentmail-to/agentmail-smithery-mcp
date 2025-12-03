@@ -1,5 +1,7 @@
 # Basic MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@agentmail-to/agentmail-mcp)](https://smithery.ai/server/@agentmail-to/agentmail-mcp)
+
 A minimal Model Context Protocol (MCP) server demonstrating tools, resources, and prompts.
 
 Built with [Smithery SDK](https://smithery.ai/docs)
