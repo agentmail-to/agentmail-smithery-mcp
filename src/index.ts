@@ -2,7 +2,7 @@ import { AgentMailClient } from 'agentmail'
 import { AgentMailToolkit } from 'agentmail-toolkit/mcp'
 
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
-import { optional, z } from 'zod'
+import { z } from 'zod'
 
 export const configSchema = z.object({
     apiKey: z.string().describe('AgentMail API key'),
