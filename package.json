@@ -1,7 +1,6 @@
 {
     "name": "agentmail-mcp-server",
     "version": "1.0.0",
-    "description": "",
     "main": "index.js",
     "module": "./src/index.ts",
     "type": "module",
@@ -9,9 +8,6 @@
         "dev": "smithery dev",
         "build": "smithery build"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
     "dependencies": {
         "@modelcontextprotocol/sdk": "^1.24.1",
         "@smithery/sdk": "^1.7.4",
