@@ -15,11 +15,11 @@ importers:
         specifier: ^1.7.4
         version: 1.7.5(@cfworker/json-schema@4.1.1)
       agentmail:
-        specifier: ^0.1.8
-        version: 0.1.9
+        specifier: ^0.1.11
+        version: 0.1.11
       agentmail-toolkit:
-        specifier: ^0.1.37
-        version: 0.1.37(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13))
+        specifier: ^0.1.39
+        version: 0.1.39(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13))
       chalk:
         specifier: ^5.6.2
         version: 5.6.2
@@ -478,8 +478,8 @@ packages:
     resolution: {integrity: sha512-5cvg6CtKwfgdmVqY1WIiXKc3Q1bkRqGLi+2W/6ao+6Y7gu/RCwRuAhGEzh5B4KlszSuTLgZYuqFqo5bImjNKng==}
     engines: {node: '>= 0.6'}
 
-  agentmail-toolkit@0.1.37:
-    resolution: {integrity: sha512-whp/11GnERPetXjWyyG3auOp9vvEV+cCWfLGjMZ9BV51MHPXY5iRZqFuJneo9Uswv8KRQYSG6eDZQLsaWcLrtw==}
+  agentmail-toolkit@0.1.39:
+    resolution: {integrity: sha512-XwkKwCqDozZvszGOnDnvl7/Ov4s2kYNSBb7MZOTZYVF9h+/bssHtKI4SIcOYgIDi/2z+sPlwfiy72Gh+zHORXA==}
     peerDependencies:
       '@modelcontextprotocol/sdk': ^1.24.1
       ai: ^6.0.0-beta.150
@@ -492,8 +492,8 @@ packages:
       langchain:
         optional: true
 
-  agentmail@0.1.9:
-    resolution: {integrity: sha512-FB7Ao1iXheO4WpRZ1OE+nxVEX5WF29Te6B9tqeLe9OshKUC1V3Vh5dNBYSL/dt5/zCZbJPTS27TFios15scYuw==}
+  agentmail@0.1.11:
+    resolution: {integrity: sha512-u/3hUh54U8EqZ8aLqBZWTbEDihQn25cbUTeyzDZn1dVyzQ4Mj/lgvglXVUrTuwgCD72ryA0sszg/Fz7baUjlSg==}
     engines: {node: '>=18.0.0'}
 
   ajv-formats@3.0.1:
@@ -1942,9 +1942,9 @@ snapshots:
       mime-types: 3.0.2
       negotiator: 1.0.0
 
-  agentmail-toolkit@0.1.37(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13)):
+  agentmail-toolkit@0.1.39(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13)):
     dependencies:
-      agentmail: 0.1.9
+      agentmail: 0.1.11
       file-type: 21.1.1
       mammoth: 1.11.0
       pdf-parse: 2.4.5
@@ -1956,7 +1956,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  agentmail@0.1.9:
+  agentmail@0.1.11:
     dependencies:
       ws: 8.18.3
     transitivePeerDependencies:
