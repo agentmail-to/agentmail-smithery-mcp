@@ -15,11 +15,11 @@ importers:
         specifier: ^4.0.1
         version: 4.0.1(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13))(zod@4.1.13)
       agentmail:
-        specifier: ^0.1.11
-        version: 0.1.11
+        specifier: ^0.2.1
+        version: 0.2.1
       agentmail-toolkit:
-        specifier: ^0.1.45
-        version: 0.1.45(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13))
+        specifier: ^0.2.0
+        version: 0.2.0(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13))
       chalk:
         specifier: ^5.6.2
         version: 5.6.2
@@ -595,8 +595,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  agentmail-toolkit@0.1.45:
-    resolution: {integrity: sha512-TWe4F8s6WmmtF4bBbW9mBgp/C158+PQ0JlIoTNsmBDk4O+adTEY0Fn0O0bl28so2UHf2mV2zxJHJIrpHP9zpxw==}
+  agentmail-toolkit@0.2.0:
+    resolution: {integrity: sha512-T20AKak7qWaBv8/A1CHMHwOdsdkcURKfrRNQazP+22ip6OqiQ9qD8CrWif/MNiDM7tYOZ9zG7yTF/OoLAT5lsQ==}
     peerDependencies:
       '@modelcontextprotocol/sdk': ^1.24.1
       ai: ^6.0.0-beta.150
@@ -609,8 +609,8 @@ packages:
       langchain:
         optional: true
 
-  agentmail@0.1.11:
-    resolution: {integrity: sha512-u/3hUh54U8EqZ8aLqBZWTbEDihQn25cbUTeyzDZn1dVyzQ4Mj/lgvglXVUrTuwgCD72ryA0sszg/Fz7baUjlSg==}
+  agentmail@0.2.1:
+    resolution: {integrity: sha512-yxvQMsF96tZpuAO+4S0bMmEiBpjxzlbX4hzo818yJ6Mm6vW+Y9k8ONKlt3QSitUJNRbHYovNNYmcwGDWTAnvFw==}
     engines: {node: '>=18.0.0'}
 
   ajv-formats@3.0.1:
@@ -2195,9 +2195,9 @@ snapshots:
 
   acorn@8.14.0: {}
 
-  agentmail-toolkit@0.1.45(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13)):
+  agentmail-toolkit@0.2.0(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13)):
     dependencies:
-      agentmail: 0.1.11
+      agentmail: 0.2.1
       jszip: 3.10.1
       unpdf: 1.4.0
       zod: 4.1.13
@@ -2208,7 +2208,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  agentmail@0.1.11:
+  agentmail@0.2.1:
     dependencies:
       ws: 8.18.3
     transitivePeerDependencies:
