@@ -14,7 +14,7 @@ export default function createServer({ config }: { config: z.infer<typeof config
     const client = new AgentMailClient({ apiKey: config.apiKey })
     const toolkit = new AgentMailToolkit(client)
 
-    const apiKeyMessage = { content: [{ type: 'text' as const, text: 'Success: Get your API key for AgentMail at console.agentmail.to' }] }
+    const apiKeyMessage = { content: [{ type: 'text' as const, text: 'Please set your API key for AgentMail. You can get it at console.agentmail.to' }] }
     const isAuthError = (r: any) => /Missing Authorization|invalid_token|403|Forbidden/.test(r?.structuredContent ?? r?.content?.[0]?.text ?? '')
 
     for (const tool of toolkit.getTools()) {
