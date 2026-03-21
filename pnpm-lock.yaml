@@ -15,11 +15,11 @@ importers:
         specifier: ^4.0.1
         version: 4.0.1(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13))(zod@4.1.13)
       agentmail:
-        specifier: ^0.2.1
-        version: 0.2.1
+        specifier: ^0.4.10
+        version: 0.4.10
       agentmail-toolkit:
-        specifier: ^0.2.0
-        version: 0.2.0(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13))
+        specifier: ^0.2.7
+        version: 0.2.7(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13))
       chalk:
         specifier: ^5.6.2
         version: 5.6.2
@@ -595,22 +595,25 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  agentmail-toolkit@0.2.0:
-    resolution: {integrity: sha512-T20AKak7qWaBv8/A1CHMHwOdsdkcURKfrRNQazP+22ip6OqiQ9qD8CrWif/MNiDM7tYOZ9zG7yTF/OoLAT5lsQ==}
+  agentmail-toolkit@0.2.7:
+    resolution: {integrity: sha512-VxM6pBZp6OXS4rAJRCtkjFhzsomYWuMCsOF4KQl6+ee3vF8g+89ZrMLdBeADH2MTh10GvW5nUghbni8XkYz7RA==}
     peerDependencies:
       '@modelcontextprotocol/sdk': ^1.24.1
       ai: ^6.0.0-beta.150
+      clawdbot: '*'
       langchain: ^1.2.0
     peerDependenciesMeta:
       '@modelcontextprotocol/sdk':
         optional: true
       ai:
         optional: true
+      clawdbot:
+        optional: true
       langchain:
         optional: true
 
-  agentmail@0.2.1:
-    resolution: {integrity: sha512-yxvQMsF96tZpuAO+4S0bMmEiBpjxzlbX4hzo818yJ6Mm6vW+Y9k8ONKlt3QSitUJNRbHYovNNYmcwGDWTAnvFw==}
+  agentmail@0.4.10:
+    resolution: {integrity: sha512-LXk2muMmXM58D5pSuDdGl2H2uoE72NEGTfPsJ1du4C53DRaxUL0yuA9tFInGvEm5E2MkdiG7Q3MMqjGHlj5vBw==}
     engines: {node: '>=18.0.0'}
 
   ajv-formats@3.0.1:
@@ -1650,18 +1653,6 @@ packages:
       utf-8-validate:
         optional: true
 
-  ws@8.18.3:
-    resolution: {integrity: sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg==}
-    engines: {node: '>=10.0.0'}
-    peerDependencies:
-      bufferutil: ^4.0.1
-      utf-8-validate: '>=5.0.2'
-    peerDependenciesMeta:
-      bufferutil:
-        optional: true
-      utf-8-validate:
-        optional: true
-
   yaml@2.8.2:
     resolution: {integrity: sha512-mplynKqc1C2hTVYxd0PU2xQAc22TI1vShAYGksCCfxbn/dFwnHTNi1bvYsBTkhdUNtGIf5xNOg938rrSSYvS9A==}
     engines: {node: '>= 14.6'}
@@ -2195,9 +2186,9 @@ snapshots:
 
   acorn@8.14.0: {}
 
-  agentmail-toolkit@0.2.0(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13)):
+  agentmail-toolkit@0.2.7(@modelcontextprotocol/sdk@1.24.3(@cfworker/json-schema@4.1.1)(zod@4.1.13)):
     dependencies:
-      agentmail: 0.2.1
+      agentmail: 0.4.10
       jszip: 3.10.1
       unpdf: 1.4.0
       zod: 4.1.13
@@ -2208,9 +2199,9 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  agentmail@0.2.1:
+  agentmail@0.4.10:
     dependencies:
-      ws: 8.18.3
+      ws: 8.18.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -3311,8 +3302,6 @@ snapshots:
   wrappy@1.0.2: {}
 
   ws@8.18.0: {}
-
-  ws@8.18.3: {}
 
   yaml@2.8.2: {}
 
