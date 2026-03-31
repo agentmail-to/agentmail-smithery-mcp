@@ -1,63 +1,42 @@
-# Basic MCP Server
+# AgentMail MCP Server (Smithery)
 
-A minimal Model Context Protocol (MCP) server demonstrating tools, resources, and prompts.
+An [AgentMail](https://agentmail.to) MCP server built for [Smithery](https://smithery.ai) — connect any MCP-compatible AI client to email.
 
-Built with [Smithery SDK](https://smithery.ai/docs)
+## What it does
 
-## Prerequisites
+Gives AI agents (Claude, Cursor, Windsurf, etc.) the ability to create email inboxes, send/receive messages, manage threads, and handle attachments — all through the Model Context Protocol.
 
-- **Smithery API key**: Get yours at [smithery.ai/account/api-keys](https://smithery.ai/account/api-keys)
+## Setup
 
-## Getting Started
+### Install via Smithery
 
-1. Install dependencies:
+```bash
+npx @smithery/cli@latest install agentmail-smithery-mcp
+```
 
-    ```bash
-    npm install
-    ```
+### Configuration
 
-2. Start development server:
-    ```bash
-    npm run dev
-    ```
-
-Try the `hello` tool, `history://hello-world` resource, or `greet` prompt.
+Set your AgentMail API key:
+- Get a free key at [console.agentmail.to](https://console.agentmail.to)
 
 ## Development
 
-Your code is organized as:
+```bash
+npm install
+npm run dev
+```
 
-- `src/index.ts` - MCP server with tools, resources, and prompts
-- `smithery.yaml` - Runtime specification
-
-Edit `src/index.ts` to add your own tools, resources, and prompts.
-
-## Build
+## Build & Deploy
 
 ```bash
 npm run build
 ```
 
-Creates bundled server in `.smithery/`
+Deploy to Smithery at [smithery.ai/new](https://smithery.ai/new).
 
-## Deploy
+## Links
 
-Ready to deploy? Push your code to GitHub and deploy to Smithery:
-
-1. Create a new repository at [github.com/new](https://github.com/new)
-
-2. Initialize git and push to GitHub:
-
-    ```bash
-    git add .
-    git commit -m "Initial commit"
-    git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-    git push -u origin main
-    ```
-
-3. Deploy your server to Smithery at [smithery.ai/new](https://smithery.ai/new)
-
-## Learn More
-
-- [Smithery Docs](https://smithery.ai/docs)
+- [AgentMail](https://agentmail.to) — The email API for AI agents
+- [AgentMail MCP Server (standalone)](https://github.com/agentmail-to/agentmail-mcp)
+- [Smithery](https://smithery.ai)
 - [MCP Protocol](https://modelcontextprotocol.io)
