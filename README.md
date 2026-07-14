@@ -7,6 +7,6 @@ This repository is retained as a permanent pointer for old links. The maintained
 - npm stdio compatibility bridge: <https://www.npmjs.com/package/agentmail-mcp>
 - PyPI stdio compatibility bridge: <https://pypi.org/project/agentmail-mcp/>
 
-Smithery is an optional listing and gateway for the canonical hosted server, not a separate AgentMail MCP implementation. No maintained source or independent deployment should live in this repository after the listing is repointed and verified.
+Smithery is an optional listing and gateway for the canonical hosted server, not a separate AgentMail MCP implementation. No maintained source or independent deployment lives in this repository.
 
 Historical source remains in Git history for audit. Do not reuse this repository name.
